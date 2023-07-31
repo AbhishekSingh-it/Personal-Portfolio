@@ -1,0 +1,283 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body {
+    background: rgb(3, 3, 28);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+nav{
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+  height:80px;
+  background-color: rgb(30, 30, 83); 
+
+}
+nav ul{
+    display: flex;
+    text-align: centre;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+ color: rgb(129, 156, 180);
+}
+.left{
+    font-size: 1.4rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+#firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#firstsection > div
+ {  
+     width: 30%;
+
+}
+.leftsection{
+   margin: 80px 0px;
+   font-size: 2.3rem;
+}
+.rightsection img
+{
+    width: 92%;
+    margin: 31px 0px;
+}
+.purple{
+    color: #64ffda;
+}
+#element{
+    color: #64ffda;
+}
+#secondsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 180px 40px;
+
+}
+#secondsection > div{
+    width: 30%;
+}
+.leftsection2 img
+{
+   border: 3px solid rgb(148, 89, 89);
+   border-radius: 45px;
+    width: 92%;
+    margin: 31px 0px;
+}
+.rightsection2{ 
+    margin: 80px 0px;
+    font-size: 1.5rem;
+ }
+ .rightsection2 p{ 
+  width: 127%;
+  margin: auto;
+ }
+.about{
+    margin: 0px 130px;
+}
+.Education {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0px;
+}
+#heading3{
+    text-align: center;
+    margin: 30px ;
+}
+
+.Education  div{
+    height: 320px;
+    width: 25%;
+}
+.field{
+    font-weight: bold;
+    color: #64ffda;
+    font-size: 1.4rem;
+  margin: 20px 20px ;
+}
+.school{
+    font-size: 1.3rem;
+   margin: 20px 20px;
+}
+.year{
+    font-size: 1.3rem;
+    margin: 20px 20px ;
+}
+.marks{
+    color: #64ffda;
+    font-size: 1.3rem;
+    margin: 20px 20px ;
+}
+.right2{
+    border-radius: 45px;
+    padding: 0px 25px ;
+    border: 3px solid rgb(148, 89, 89);
+}
+.mid2{
+    border-radius: 45px;
+    padding: 0px 25px ;
+    border: 3px solid rgb(148, 89, 89);
+}
+.left2{
+    border-radius: 45px;
+    padding: 0px 25px ;
+    border: 3px solid rgb(148, 89, 89);
+}
+
+
+.thirdsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 180px;
+
+}
+.thirdsection div{
+    width: 24%;
+}
+.heading4{
+    font-weight: bold;
+    color: #64ffda;
+    font-size: 1.4rem;
+  margin: 20px 20px ;
+}
+.programming{
+    border-radius: 45px;
+    padding: 0px 25px ;
+    border:3px solid grey;
+    height: 340px;
+}
+.webdev{
+    border-radius: 45px;
+    padding: 0px 25px ;
+    border:3px solid grey;
+    height: 340px;
+}
+.lan1{
+    font-size: 1.3rem;
+   margin: 20px 20px;
+}
+.lan2{
+    font-size: 1.3rem;
+    margin: 20px 20px ;
+}
+.lan3{
+    font-size: 1.3rem;
+    margin: 20px 20px ;
+}
+.lan4{
+    font-size: 1.3rem;
+    margin: 20px 20px ;
+}
+.heading3{
+    text-align: center;
+    margin: 30px ;
+}
+#Contact{ 
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 90px 0px;
+}
+#Contact div{
+    width: 30px;
+}
+
+.contact-left h1{
+    display: flex;
+    margin-left: 30px;
+    margin: 50px 0px;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+flex-basis: 32%;
+}
+.contact-left i{
+    color: red;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.appicon{
+    margin:30px 0px;
+    width: 45%;
+    transform: tranform 0.5s;
+}
+.appicon a :hover{
+    color: rgb(185, 67, 67);
+    transform: translateY(-5px);
+}
+.para1{
+margin: 20px 0px;
+}
+.btn{
+    display: inline-block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 3px solid #ff004f;
+    padding: 14px 50px;
+    background: red;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: transition 0.5s;
+}
+.btn:hover{
+    background: rgb(183, 80, 80);
+}
+.contact-right form{
+    width: 100%;
+}
+form input,form textarea{
+width: 90%;
+outline: none;
+border: 0;
+background: #262626;
+padding: 8px;
+margin:15px 0px ;
+color: #fff;
+font-size: 18px;
+border-radius: 6px;
+}
+
+@media  screen and (max-width:620px)  {
+    body{
+        background-color: red;
+    }
+    #firstsection{
+        flex-direction: column-reverse;
+    }
+    .thirdsection {
+        flex-direction: column-reverse;
+        width: 95%;
+        margin: 34px;
+    }
+    #thirdsection{
+        flex-direction: column-reverse;
+        
+    }
+}
